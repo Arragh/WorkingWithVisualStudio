@@ -28,6 +28,7 @@ namespace WorkingWithVisualStudio.Models
             {
                 AddProduct(p);
             }
+            products.Add("Error", null);
         }
     }
 }

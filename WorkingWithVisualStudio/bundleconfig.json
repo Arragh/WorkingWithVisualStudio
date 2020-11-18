@@ -1,0 +1,16 @@
+[
+  {
+    "outputFileName": "wwwroot/lib/css/bundle.css",
+    "inputFiles": [
+      "wwwroot/lib/css/style1.css",
+      "wwwroot/lib/css/style2.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/js/bundle.js",
+    "inputFiles": [
+      "wwwroot/lib/js/script1.js",
+      "wwwroot/lib/js/script2.js"
+    ]
+  }
+]
