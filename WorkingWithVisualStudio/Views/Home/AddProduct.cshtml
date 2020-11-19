@@ -1,0 +1,30 @@
+﻿@model WorkingWithVisualStudio.Models.Product
+
+@{ Layout = null; }
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Добавление продукта</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+</head>
+<body class="p-2">
+    <h3 class="text-center">Create Product</h3>
+    <form asp-action="AddProduct" method="post">
+        <div class="form-group">
+            <label asp-for="Name">Name:</label>
+            <input class="form-control" asp-for="Name" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Price">Price:</label>
+            <input class="form-control" asp-for="Price" />
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary" type="submit">Добавить</button>
+            <a class="btn btn-secondary" asp-action="Index">Отмена</a>
+        </div>
+    </form>
+
+</body>
+
+</html>
